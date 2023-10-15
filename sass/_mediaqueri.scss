@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px){
+    .divsobrenosotros{
+        align-items: $align-items;
+        justify-content: $justify-content;
+    }
+     .video{
+       @extend .divsobrenosotros
+    }
+    .linksfooter{
+        padding-top: 50px;
+    }
+     .versionmobile{
+        display: none!important;
+    }
+    
+}

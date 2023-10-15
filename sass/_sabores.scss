@@ -1,0 +1,9 @@
+.sabores{
+    padding-top: 20px;
+    border-style: double;
+   font-size: 1.5rem;
+    justify-content: $justify-content;
+    
+    padding-left: 50px;
+    background-color: map-get($mapa-colores, colorfondo);
+}

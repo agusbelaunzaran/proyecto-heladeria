@@ -1,0 +1,20 @@
+.h1contacto{
+    padding-left: 35%;
+}
+.h2contacto{
+    padding-left: 25%;
+}
+.formulario{
+    padding-left: 20px;
+}
+.contenedor{
+    display: flex;
+align-items: $align-items;
+}
+form{
+    @extend .formulario;
+    width:90vh;
+}
+.imgform{
+    padding-left: 70px;
+}

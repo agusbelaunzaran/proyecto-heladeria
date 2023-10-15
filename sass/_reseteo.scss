@@ -1,0 +1,14 @@
+@font-face {
+    font-family:Merriweather-BlackItalic;
+    src: url(../assets/fonts/Merriweather-BlackItalic.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.colorfondo{
+    background-color: map-get($mapa-colores, colorfondo);}

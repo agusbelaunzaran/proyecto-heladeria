@@ -1,0 +1,21 @@
+.logo{
+    text-align: $text-align;
+    padding-left: 20px;
+    .logo-text{
+        font-size: 24px;
+        font-weight: bold;
+        padding: 20px;
+        color: map-get($mapa-colores , color-negro);
+    }
+}
+
+
+
+.marginnav{
+    margin-right: 50px;
+    .colornav{
+        color: map-get( $mapa-colores, color-negro)!important;
+        font-weight: bold;
+       }
+}
+

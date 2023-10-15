@@ -1,0 +1,22 @@
+.footer{
+    height: 30vh;
+   
+}
+.linksfooter{
+    border-top: 2px solid map-get($mapa-colores, color-negro );
+    padding-top: 20px;
+    .fa-facebook{
+        color: map-get($mapa-colores, color-negro) ;
+        font-size: 2rem;
+        padding-left: 30px;
+    }
+    .fa-whatsapp{
+        @extend .fa-facebook
+    }
+    .fa-instagram{
+        @extend .fa-facebook
+    }
+    .fa-twitter{
+       @extend .fa-facebook
+    }
+}

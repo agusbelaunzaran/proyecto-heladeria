@@ -27,6 +27,12 @@
   font-weight: bold;
 }
 
+.menu li:hover {
+  color: black;
+  background-color: gray;
+  border-radius: 5px;
+}
+
 .main {
   justify-content: center;
 }

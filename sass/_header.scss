@@ -16,6 +16,12 @@
     .colornav{
         color: map-get( $mapa-colores, color-negro)!important;
         font-weight: bold;
+       
        }
+}
+.menu li:hover{
+    color: map-get($mapa-colores , color-negro );
+    background-color: map-get($mapa-colores, color-gris );
+    border-radius: 5px;
 }
 

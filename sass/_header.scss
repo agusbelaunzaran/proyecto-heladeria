@@ -8,20 +8,13 @@
         color: map-get($mapa-colores , color-negro);
     }
 }
-
-
-
 .marginnav{
     margin-right: 50px;
     .colornav{
-        color: map-get( $mapa-colores, color-negro)!important;
+        color: map-get( $mapa-colores, color-negro);
         font-weight: bold;
        
        }
 }
-.menu li:hover{
-    color: map-get($mapa-colores , color-negro );
-    background-color: map-get($mapa-colores, color-gris );
-    border-radius: 5px;
-}
+
 

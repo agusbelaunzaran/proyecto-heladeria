@@ -1,7 +1,14 @@
-.combosh2{
-    justify-content: $justify-content;
-    text-align: $text-align
+.h1combo{
+    text-align: center;
+    font-size: 2.5rem;
+    
 }
-.h3yp{
-    @extend .combosh2
+.h2combo{
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+.flexible{
+ @include flexible(row)
 }

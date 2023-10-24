@@ -1,0 +1,15 @@
+body{
+    height: 100vh;
+    .divinfo{
+        h1{
+            font-size: 4rem;
+        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .boton{
+        text-decoration: none !important;
+    }
+}

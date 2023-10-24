@@ -154,4 +154,19 @@ form {
   .versionmobile {
     display: none !important;
   }
+}
+body {
+  height: 100vh;
+}
+body .divinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .divinfo h1 {
+  font-size: 4rem;
+}
+body .boton {
+  text-decoration: none !important;
 }/*# sourceMappingURL=estilos.css.map */

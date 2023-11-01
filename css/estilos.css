@@ -12,6 +12,10 @@
   background-color: rgb(233, 190, 220);
 }
 
+.boton {
+  border: solid black !important;
+}
+
 .logo {
   text-align: center;
   padding-left: 20px;
@@ -77,6 +81,10 @@
   font-size: 2rem;
   padding-left: 30px;
 }
+.desborde {
+  overflow: hidden;
+}
+
 .sabores {
   line-height: 25px;
   padding-top: 20px;
@@ -114,6 +122,10 @@
 
 .video {
   padding-left: 50px;
+}
+
+.desborde {
+  overflow: hidden;
 }
 
 .h1contacto {
@@ -167,6 +179,6 @@ body .divinfo {
 body .divinfo h1 {
   font-size: 4rem;
 }
-body .boton {
+body .botonvolver {
   text-decoration: none !important;
 }/*# sourceMappingURL=estilos.css.map */

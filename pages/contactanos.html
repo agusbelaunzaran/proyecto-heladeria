@@ -12,7 +12,7 @@
     <link rel="icon" href="../favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
-<body class="colorfondo">
+<body class="colorfondo desborde">
     <header class="colorfondo">
         <nav class="navbar navbar-expand-lg"navbar-brand" href="../index.html">
             <div class="logo">
@@ -20,7 +20,7 @@
               <span class="logo-text"> Heladeria Rita</span>
             </div>
              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -54,34 +54,35 @@
             <form action=" procesar_formulario.php" class="col-md-6 col-sm-12">
                 <div> 
                 <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="nombre" placeholder="Juana">
+                <input type="text" class="form-control" id="nombre" placeholder="Juana"required >
                 </div>
                 <div>
                   <label for="apellido" class="form-label">Apelllido</label>
-                  <input type="text" class="form-control" id="apellido" placeholder="Perez">
+                  <input type="text" class="form-control" id="apellido" placeholder="Perez"required  >
                 </div>
                 <div>
                   <label for="Telefono" class="form-label">Telefono</label>
-                  <input type="number" class="form-control" id="telefono" placeholder="221-3333333">
+                  <input type="number" class="form-control" id="telefono" placeholder="221-3333333"required >
                 </div>
                 <div>
                   <label for="email" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="email" placeholder="juanaperez@gmail.com">
+                  <input type="email" class="form-control" id="email" placeholder="juanaperez@gmail.com" required >
                 </div>
                 <div>
                   <label for="exampleFormControlInput1" class="form-label">Ingrese su dulce consulta...</label>
-                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Queria saber...">
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Queria saber..."required >
                 </div>
                 <div class="mt-3">
                   <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
                     Borrar
                   </button>
-                  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">
+                  <a href="./404.error.html">  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">
                     Enviar
-                  </button>
+                  </button></a>
+                
                 </div>
             </form>
-               <div class="col-md-6 col-sm-12 mt-3 ml-3 imgform "> 
+               <div class="col-md-6 col-sm-12 mt-3 imgform "> 
                 <img class="imgform" src="../assets/img/pexels-valeria-boltneva-684968.jpg" alt="foto en una heladeria que muestra un cucurucho de dos bochas y una tacita de helado de 1 bocha con fondo de la misma heladeria">
                </div>
             </div>
